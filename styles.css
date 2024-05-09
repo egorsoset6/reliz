@@ -1,0 +1,86 @@
+body {
+    font-family: sans-serif;
+    background-color: green;
+    /* text-align: center; */
+}
+nav {
+    display: flex;
+    justify-content: space-around;
+    background-color: orangered;
+    border-radius: 25px;
+    padding: 20px 0px;
+}
+nav a {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    font-weight: 600;
+}
+.logo {
+    display: flex;
+    justify-content: left;
+    margin: 0px 0px 10px 0px;
+}
+.section_main {
+    display: flex;
+    justify-content: space-around;
+}
+h1{
+    text-align: center;
+    color: blanchedalmond;
+}
+main a{
+    text-decoration: none;
+    color: gold;
+    background-color: yellowgreen;
+    padding: 5px;
+    border: 1px solid brown;
+    border-radius: 10px;
+}
+.div_left {
+    text-align: center;
+}
+.div_right {
+    display: flex;
+    align-items: center;
+}
+.div_end {
+    display: flex;
+    justify-content: space-around;
+    margin: 25px 0px ;
+}
+
+nav a:hover {
+    color: cyan;
+    font-size: 25px;
+    border-right: 5px double rgb(30, 168, 168);
+    border-left: 5px double rgb(31, 169, 169);
+}
+
+.dzvinok:hover {
+    background-color: brown;
+    color: beige;
+    border: 2px solid green; 
+    transition: 2s;
+}
+
+.guides:hover {
+    background-color: brown;
+    color: beige;
+    border: 2px solid green;
+    transition: 2s;
+}
+
+.buy:hover {
+    transition: 2s ease-in-out;
+    font-size: 50px;
+    border: 5px double brown;
+}
+
+.slon {
+    transition: transform 0.3s;
+}
+
+.slon:hover{
+    transform: scale(2);
+}
